@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.david.kmero.prueba" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".TCA" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cargadores"
+            android:label="@string/title_activity_cargadores"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.CARGADORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AUDIFONOS"
+            android:label="AUDIFONOS"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.AUDIFONOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".REPRODUCTOOR"
+            android:label="REPRODUCTORES"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.REPRODUCTORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cablesdedatos"
+            android:label="CABLES DE DATOS"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.CABLESDEDATOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Pop2"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Pop3"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popaudisam"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popaudiskull"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popaudiiphone"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Poprepro1"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Poprepro2"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Poprepro3"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popdatos1"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popdatos2"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popdatos3"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popdatos4"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Popintro"
+            android:theme="@style/AppTheme.CustomTheme"/>
+
+
+    </application>
+
+</manifest>

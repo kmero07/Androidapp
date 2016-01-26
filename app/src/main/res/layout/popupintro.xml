@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fondointro2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/editText2"
+        android:text="Bienvenidos a mi app, en donde se muestra un catálogo del negocio familiar llamado TCA, el cual se dedica al servicio técnico de teléfonos celulares, computadores y tablets, además de la venta de accesorios. He decidido poner algunos de los artículos base del local en esta app, espero sea de su agrado."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#070707"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoreproductores">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/reproductores"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/visor3"/>
+    <HorizontalScrollView
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"    >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/reproductor1"
+                android:id="@+id/repro1"
+                android:padding="20dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/reproductor2"
+                android:id="@+id/repro2"
+                android:padding="20dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/reproductor3"
+                android:id="@+id/repro3"
+                android:padding="20dp"/>
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+</LinearLayout>
